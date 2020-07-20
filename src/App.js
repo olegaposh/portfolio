@@ -1,10 +1,13 @@
 import React from 'react';
-import BrowseRouter from "./components/navbar/NavBar"
+import NavBar from "./components/navbar/NavBar"
+import Background from './components/background/Background';
+import "./App.css"
 
 function App() {
   return (
     <>
-    <BrowseRouter/>
+    <NavBar/>
+    <Background/>
     </>
   );
 }

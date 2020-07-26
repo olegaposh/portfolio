@@ -27,21 +27,21 @@ const Portfolio = () => {
             </div>
           </a>
           <a href="https://olegaposh.github.io/Cinema_Spirits/">
-            <div class="flexbox-item">
-              <img class="card-img-top" src="./Assets/glasses.jpg" alt="Cinema Spirits"/>
-              <h3 class="text-center p-4">Cinema Spirits</h3>
+            <div className="flexbox-item">
+              <img className="card-img-top" src="./Assets/glasses.jpg" alt="Cinema Spirits"/>
+              <h3 className="text-center p-4">Cinema Spirits</h3>
             </div>
           </a>
           <a href="https://olegaposh.github.io/weather_dashboard/">
-            <div class="flexbox-item">
-              <img class="card-img-top" src="./Assets/blur-cars.jpg" alt="Weather Dashboard"/>
-              <h3 class="text-center p-4">Weather Dashboard</h3>
+            <div className="flexbox-item">
+              <img className="card-img-top" src="./Assets/blur-cars.jpg" alt="Weather Dashboard"/>
+              <h3 className="text-center p-4">Weather Dashboard</h3>
             </div>
           </a>
           <a href="https://drive.google.com/file/d/19kfTMwu4aMieNpZM1Uya59m9noV9lR1d/view">
-            <div class="flexbox-item">
-              <img class="card-img-top" src="./Assets/employee.png" alt="Employee Management System"/>
-              <h3 class="text-center p-4">Employee Management System</h3>
+            <div className="flexbox-item">
+              <img className="card-img-top" src="./Assets/employee.png" alt="Employee Management System"/>
+              <h3 className="text-center p-4">Employee Management System</h3>
             </div>
           </a>
         </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router } from 'react-router-dom';
-import { MDBNav, MDBNavLink, MDBNavItem } from "mdbreact";
+import { MDBNav, MDBNavItem } from "mdbreact";
 import "./NavBar.css"
 import { HashLink as Link } from 'react-router-hash-link';
 

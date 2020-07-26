@@ -18,31 +18,31 @@ const Skills = () => {
 
 
         <MDBCol>
-        <div class="skills">
+        <div className="skills">
           <br></br>
           <li>
-            <h3>HTML5</h3><span class="bar"><span class="html"></span></span>
+            <h3>HTML5</h3><span className="bar"><span class="html"></span></span>
           </li>
           <li>
-            <h3>CSS3</h3><span class="bar"><span class="css"></span></span>
+            <h3>CSS3</h3><span className="bar"><span class="css"></span></span>
           </li>
           <li>
-            <h3>BOOTSTRAP</h3><span class="bar"><span class="bootstrap"></span></span>
+            <h3>BOOTSTRAP</h3><span className="bar"><span class="bootstrap"></span></span>
           </li>
           <li>
-            <h3>NODEJS</h3><span class="bar"><span class="nodejs"></span></span>
+            <h3>NODEJS</h3><span className="bar"><span class="nodejs"></span></span>
           </li>
           <li>
-            <h3>JAVASCRIPT</h3><span class="bar"><span class="javascript"></span></span>
+            <h3>JAVASCRIPT</h3><span className="bar"><span class="javascript"></span></span>
           </li>
           <li>
-            <h3>MONGODB</h3><span class="bar"><span class="mongodb"></span></span>
+            <h3>MONGODB</h3><span className="bar"><span class="mongodb"></span></span>
           </li>
           <li>
-            <h3>REACT</h3><span class="bar"><span class="react"></span></span>
+            <h3>REACT</h3><span className="bar"><span class="react"></span></span>
           </li>
           <li>
-            <h3>SQL</h3><span class="bar"><span class="sql"></span></span>
+            <h3>SQL</h3><span className="bar"><span class="sql"></span></span>
           </li>
         </div>
         </MDBCol>

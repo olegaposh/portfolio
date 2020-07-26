@@ -9,8 +9,11 @@
     "bootstrap": "^4.5.0",
     "mdbreact": "^4.27.0",
     "react": "^16.13.1",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-bootstrap": "^1.2.2",
     "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "react-router-hash-link": "^2.0.0",
     "react-scripts": "3.4.1"
   },
   "scripts": {

@@ -6,10 +6,10 @@ const Background = () => {
 
     return (
         
-        <MDBContainer fluid className="background">
+        <MDBContainer fluid className="background d-flex align-items-center justify-content-center">
             <MDBRow>
-                <MDBCol size="8" className="text-center middle">
-                <h2>Tomorrow may bring uncertainty, but reliable web solutions will always be at your side</h2>
+                <MDBCol>
+                <p className="message">Tomorrow may bring uncertainty, but reliable web solutions will always be at your side</p>
                 </MDBCol>
 
             </MDBRow>

@@ -1,17 +1,20 @@
 import React from "react";
-import { BrowserRouter } from 'react-router-dom';
-import { MDBNav, MDBNavLink } from "mdbreact";
+import { BrowserRouter as Router } from 'react-router-dom';
+import { MDBNav, MDBNavLink, MDBNavItem } from "mdbreact";
 import "./NavBar.css"
+import { HashLink as Link } from 'react-router-hash-link';
+
+
 
 export default () => (
-  <BrowserRouter>
+  <Router>
 
     <MDBNav className="navbar justify-content-end p-3">
       <MDBNavLink className="white-text" active to="#!">Home</MDBNavLink>
-      <MDBNavLink className="white-text" to="#!">Portfolio</MDBNavLink>
+      <MDBNavItem> <Link to="#portfolio" className="white-text">Portfolio</Link></MDBNavItem>
       <MDBNavLink className="white-text" to="#!">Contact</MDBNavLink>
       
     </MDBNav>
 
-  </BrowserRouter>
+  </Router>
 );

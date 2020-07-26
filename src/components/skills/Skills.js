@@ -2,13 +2,18 @@ import React from "react";
 import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
 import alex from "./alex.png"
 import './Skills.css';
+import { MDBIcon } from "mdbreact";
 
 const Skills = () => {
   return (
-    <MDBContainer>
+    <MDBContainer id="contact">
       <MDBRow>
         <MDBCol className="text-center align-self-center">
         <img className="img-fluid mt-5" id="alex" src={alex} alt="Alex"/>
+        <br></br>
+        <a href="https://github.com/olegaposh"><MDBIcon className="p-3" id="github" size="4x" fab icon="github" /></a>
+        <a href="https://www.linkedin.com/in/alexposhivailo"><MDBIcon className="p-3" id="linkedin" size="4x" fab icon="linkedin" /></a>
+        <a href="/Assets/Resume.pdf"><MDBIcon className="p-3" id="resume" size="4x" icon="file-alt" /></a>
         </MDBCol>
 
 

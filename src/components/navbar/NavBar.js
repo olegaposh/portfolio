@@ -11,7 +11,6 @@ export default () => (
   <Router>
     
     <MDBNav className="navbar  justify-content-end  p-3 sticky-top">
-      
       <h1 className="mr-auto">Alex Poshivailo</h1>
       <MDBNavItem> <Link to="#portfolio" className="white-text p-2">Portfolio</Link></MDBNavItem>
       <MDBNavItem> <Link to="#contact" className="white-text p-2">Contact</Link></MDBNavItem>

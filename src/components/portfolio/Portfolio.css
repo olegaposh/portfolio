@@ -28,7 +28,7 @@ border-radius: .5em;
 
 p, h1 {
     color: white;
-    text-shadow: 2px 2px 5px white; 
+    
 }
 
 h3 {
@@ -36,10 +36,14 @@ h3 {
 }
 
 #projects {
-    text-shadow: 3px 2px 5px white; 
+    /* text-shadow: 3px 2px 1px white;  */
     font-weight: 500;
 }
 
 #projects:hover{
-    text-shadow: 2px 2px 5px white; 
+    /* text-shadow: 2px 2px 1px white;  */
+}
+
+img {
+    height: 70%;
 }

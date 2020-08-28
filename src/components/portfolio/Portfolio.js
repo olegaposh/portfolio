@@ -1,8 +1,12 @@
 import React from "react";
+import { MDBContainer, MDBBtn, MDBModal, MDBModalBody, MDBModalHeader, MDBModalFooter } from 'mdbreact';
 import "./Portfolio.css"
+import EstatePage from "./EstateModal"
+import CostModal from "./CostModal"
+import CinemaModal from "./CinemaModal"
+import BookModal from "./BookModal"
 
-
-const Portfolio = () => {
+const Portfolio = (props) => {
 
     return (
         <>
@@ -20,30 +24,30 @@ const Portfolio = () => {
       
       
         <div className="flexbox-container">
-          <a href="https://my-cost-tracker.herokuapp.com/">
+          {/* <a href="https://my-cost-tracker.herokuapp.com/"> */}
             <div className="flexbox-item">
               <img className="card-img-top" src="/Assets/cost-tracker.jpg"alt="Cost Tracker"/>
-              <h3 className="text-center p-4">My Cost Tracker</h3>
+              <h3 className="text-center p-3"><CostModal/></h3>
             </div>
-          </a>
-          <a href="https://olegaposh.github.io/Cinema_Spirits/">
+          {/* </a> */}
+          {/* <a href="https://olegaposh.github.io/Cinema_Spirits/"> */}
             <div className="flexbox-item">
               <img className="card-img-top" src="./Assets/glasses.jpg" alt="Cinema Spirits"/>
-              <h3 className="text-center p-4">Cinema Spirits</h3>
+              <h3 className="text-center p-3"><CinemaModal/></h3>
             </div>
-          </a>
-          <a href="https://olegaposh.github.io/weather_dashboard/">
+          {/* </a> */}
+          
             <div className="flexbox-item">
-              <img className="card-img-top" src="./Assets/blur-cars.jpg" alt="Weather Dashboard"/>
-              <h3 className="text-center p-4">Weather Dashboard</h3>
+              <img className="card-img-top" src="./Assets/real-estate.png" alt="Washburn Real Estate"/>
+              <h3 className="text-center p-3"><EstatePage/></h3>
             </div>
-          </a>
-          <a href="https://drive.google.com/file/d/19kfTMwu4aMieNpZM1Uya59m9noV9lR1d/view">
+          
+          {/* <a href="https://book-search-react-2020.herokuapp.com/"> */}
             <div className="flexbox-item">
-              <img className="card-img-top" src="./Assets/employee.png" alt="Employee Management System"/>
-              <h3 className="text-center p-4">Employee Management System</h3>
+              <img className="card-img-top" src="./Assets/book.jpeg" alt="Google Book Search"/>
+              <h3 className="text-center p-3"><BookModal/></h3>
             </div>
-          </a>
+          {/* </a> */}
         </div>
         
     </>

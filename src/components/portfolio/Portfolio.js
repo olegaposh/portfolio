@@ -1,5 +1,4 @@
 import React from "react";
-import { MDBContainer, MDBBtn, MDBModal, MDBModalBody, MDBModalHeader, MDBModalFooter } from 'mdbreact';
 import "./Portfolio.css"
 import EstatePage from "./EstateModal"
 import CostModal from "./CostModal"

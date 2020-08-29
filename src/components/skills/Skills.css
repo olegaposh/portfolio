@@ -46,7 +46,7 @@ li {
     animation: html 2s;
 }
 .css {
-    width: 80%;
+    width: 70%;
     animation: css 2s;
 }
 .bootstrap {
@@ -58,7 +58,7 @@ li {
     animation: nodejs 2s;
 }
 .javascript {
-    width: 70%;
+    width: 80%;
     animation: javascript 2s;
 }
 .mongodb {
@@ -66,11 +66,11 @@ li {
     animation: mongodb 2s;
 }
 .react {
-    width: 60%;
+    width: 80%;
     animation: react 2s;
 }
 .sql {
-    width: 80%;
+    width: 70%;
     animation: sql 2s;
 }
 
@@ -87,7 +87,7 @@ li {
         width: 0%;
     }
     100%{
-        width: 80%;
+        width: 70%;
     }
 }
 @keyframes bootstrap {
@@ -111,7 +111,7 @@ li {
         width: 0%;
     }
     100%{
-        width: 70%;
+        width: 80%;
     }
 }
 @keyframes mongodb {
@@ -127,7 +127,7 @@ li {
         width: 0%;
     }
     100%{
-        width: 60%;
+        width: 80%;
     }
 }
 @keyframes sql {
@@ -135,6 +135,6 @@ li {
         width: 0%;
     }
     100%{
-        width: 80%;
+        width: 70%;
     }
 }

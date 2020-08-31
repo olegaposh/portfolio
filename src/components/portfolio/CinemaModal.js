@@ -20,8 +20,8 @@ render() {
       <MDBModal isOpen={this.state.modal} toggle={this.toggle}>
         <img src="./Assets/cinaspirits.png" className="img-fluid" alt="Cinema Spirits" />
         <MDBModalBody>
-        
-        Utilizes TheCocktailDB and OMDb API, and uses Jquery and AOS library for effects.
+        Make it a theme night! Choose a liquor that you have around the house and receive drink options and a movie based on the liquor of your choice. 
+        Utilizes TheCocktailDB and OMDb APIs, and uses Jquery and AOS library for effects.
         
         </MDBModalBody>
         <MDBModalFooter className="justify-content-center">

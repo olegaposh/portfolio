@@ -21,8 +21,7 @@ render() {
         {/* <MDBModalHeader toggle={this.toggle}>My Cost Tracker</MDBModalHeader> */}
         <img src="./Assets/cost-image.png" className="img-fluid" alt="My Cost Tracker" />
         <MDBModalBody>
-        
-        This website uses NodeJS, Express, Handlebars, SQL, passport.js -- for the login to set up a unique user experience, and bcrypt -- to hash the password for user protection.
+        The My Cost Tracker keeps track of all your daily costs and keeps a total. Utilizes NodeJS, Express, Handlebars, SQL, passport.js -- for authentication, and bcrypt -- to hide the user password.
         
         </MDBModalBody>
         <MDBModalFooter className="justify-content-center">

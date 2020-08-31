@@ -21,8 +21,7 @@ render() {
         <img src="./Assets/book-search.png" className="img-fluid" alt="Google Book Search" />
         <MDBModalBody>
         
-        Utilizies the Google Books API to fetch for searched books. Utilizes MongoDB to allow the user
-        to save their favorite books. MERN stack(MongoDB, Express.js, React, and Node)
+        Utilizies the Google Books API to fetch for searched books and lets the user save their favorite books. Utilizes the MERN stack(MongoDB, Express.js, React, and Node)
         
         </MDBModalBody>
         <MDBModalFooter className="justify-content-center">

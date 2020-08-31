@@ -21,9 +21,8 @@ render() {
         {/* <MDBModalHeader toggle={this.toggle}>Washburn Real Estate</MDBModalHeader> */}
         <img src="./Assets/map.png" className="img-fluid" alt="map and home listings" />
         <MDBModalBody>
-        
-        This website was created with focus on the MERN technology stack, and Auth0 authentication.
-          (MongoDB, Express, React, and Node.js)
+        Search and filter properties currently for sale and save your favorite ones. 
+        Uses the MERN technology stack, and Auth0 authentication.(MongoDB, Express, React, and Node.js)
         
         </MDBModalBody>
         <MDBModalFooter className="justify-content-center">

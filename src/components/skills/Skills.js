@@ -6,7 +6,7 @@ import { MDBIcon } from "mdbreact";
 
 const Skills = () => {
   return (
-    <MDBContainer id="contact">
+    <MDBContainer>
       <MDBRow>
         <MDBCol className="text-center align-self-center">
         <img className="img-fluid mt-5" id="alex" src={alex} alt="Alex"/>

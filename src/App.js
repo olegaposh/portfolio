@@ -4,6 +4,7 @@ import Background from './components/background/Background';
 import "./App.css"
 import Skills from './components/skills/Skills';
 import Portfolio from './components/portfolio/Portfolio';
+import Contact from './components/contact/Contact'
 
 
 
@@ -15,6 +16,7 @@ function App() {
     <Background/>
     <Skills/>
     <Portfolio />
+    <Contact />
     </>
   );
 }

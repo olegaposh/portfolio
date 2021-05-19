@@ -14,12 +14,12 @@ const Contact = () => {
 
                     <MDBCol></MDBCol>
 
-                    <MDBCol>
+                    <MDBCol size="sm">
                         <MDBIcon id="email" size="4x" icon="envelope" />
                         <p className="p-3">oleg.poshiv@gmail.com</p>
                     </MDBCol>
 
-                    <MDBCol>
+                    <MDBCol size="sm">
                         <MDBIcon id="phone" size="4x" icon="phone" />
                         <p className="p-3">(602) 810-6489</p>
                     </MDBCol>
